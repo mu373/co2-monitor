@@ -9,4 +9,25 @@ Get sensor values (CO2, humidity, and temperature) from [UD-CO2S](https://www.io
 go build co2monitor.go
 # Run
 ./co2monitor
+# To stop, press ctrl-c
+```
+
+## Outputs
+```txt
+$ ./co2monitor
+{
+  "co2": 699,
+  "hum": 46.7,
+  "temp": 30.8
+}
+{
+  "co2": 699,
+  "hum": 46.7,
+  "temp": 30.8
+}
+{
+  "co2": 699,
+  "hum": 46.6,
+  "temp": 30.7
+}
 ```
